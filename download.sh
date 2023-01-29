@@ -6,6 +6,9 @@ git clone git@github.com:Templarian/MaterialDesign.git
 echo "Copying the SVGs..."
 cp -r MaterialDesign/svg/* resources/svg/
 
+echo "Modifying the SVGs..."
+find resources/svg -name "*.svg" -exec sed -i '/<svg/{/fill/!s/<svg/<svg fill="currentColor"/;}' {} +
+
 echo "Removing the cloned repo..."
 rm -rf MaterialDesign/
 
