@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\BladeMdi\Test;
+namespace Postare\BladeMdi\Test;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -23,7 +23,7 @@ abstract class TestCase extends Orchestra
     {
         return [
             \BladeUI\Icons\BladeIconsServiceProvider::class,
-            \RenokiCo\BladeMdi\BladeMdiServiceProvider::class,
+            \Postare\BladeMdi\BladeMdiServiceProvider::class,
         ];
     }
 
@@ -35,7 +35,7 @@ abstract class TestCase extends Orchestra
         $app['config']->set('app.key', 'wslxrEFGWY6GfGhvN9L3wH3KSRJQQpBD');
 
         $app['config']->set('view.paths', [
-            __DIR__.'/views',
+            __DIR__ . '/views',
             resource_path('views'),
         ]);
     }

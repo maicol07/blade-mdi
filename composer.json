@@ -17,20 +17,20 @@
     },
     "autoload": {
         "psr-4": {
-            "RenokiCo\\BladeMdi\\": "src/"
+            "Postare\\BladeMdi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RenokiCo\\BladeMdi\\Test\\": "tests"
+            "Postare\\BladeMdi\\Test\\": "tests"
         }
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.0",
-        "orchestra/database": "^5.0"
+        "orchestra/testbench": "^7.0|^8.0",
+        "orchestra/database": "^7.0"
     },
     "config": {
         "sort-packages": true
@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RenokiCo\\BladeMdi\\BladeMdiServiceProvider"
+                "Postare\\BladeMdi\\BladeMdiServiceProvider"
             ]
         }
     }
