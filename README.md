@@ -1,21 +1,16 @@
 Laravel Blade Material Design Icons
 ===================================
 
-![CI](https://github.com/renoki-co/blade-mdi/workflows/CI/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/renoki-co/blade-mdi/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/blade-mdi/branch/master)
-[![StyleCI](https://github.styleci.io/repos/284687688/shield?branch=master)](https://github.styleci.io/repos/284687688)
-[![Latest Stable Version](https://poser.pugx.org/renoki-co/blade-mdi/v/stable)](https://packagist.org/packages/renoki-co/blade-mdi)
-[![Total Downloads](https://poser.pugx.org/renoki-co/blade-mdi/downloads)](https://packagist.org/packages/renoki-co/blade-mdi)
-[![Monthly Downloads](https://poser.pugx.org/renoki-co/blade-mdi/d/monthly)](https://packagist.org/packages/renoki-co/blade-mdi)
-[![License](https://poser.pugx.org/renoki-co/blade-mdi/license)](https://packagist.org/packages/renoki-co/blade-mdi)
+This repository is a fork of the original [renoki-co/blade-mdi](https://github.com/renoki-co/blade-mdi) repository which is now archived and read-only. I have made the following modifications to the original code:
+
+- Updated dependencies
+- Added new icons
+- Added fill=currentColor property to all icons
+
+Please note that this repository is not associated with the original repository or its maintainers. If you have any questions or suggestions, you can open an issue in this repository.
+
 
 Blade MDI adds Material Design Icons as Laravel Blade UI Kit components. For more information regarding Material Design Icons, check https://materialdesignicons.com
-
-## 🤝 Supporting
-
-Renoki Co. on GitHub aims on bringing a lot of open source, MIT-licensed projects and helpful projects to the world. Developing and maintaining projects everyday is a harsh work and tho, we love it.
-
-If you are using your application in your day-to-day job, on presentation demos, hobby projects or even school projects, spread some kind words about our work or sponsor our work. Kind words will touch our chakras and vibe, while the sponsorships will keep the open source projects alive.
 
 ## 🚀 Installation
 
