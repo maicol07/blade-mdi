@@ -17,13 +17,13 @@ Blade MDI adds Material Design Icons as Laravel Blade UI Kit components. For mor
 You can install the package via composer:
 
 ```bash
-composer require renoki-co/blade-mdi
+composer require composer require postare/blade-mdi
 ```
 
 This is not required, but if you want to publish the SVGs locally, you can do so:
 
 ```bash
-$ php artisan vendor:publish --provider="RenokiCo\BladeMdi\BladeMdiServiceProvider" --tag="blade-mdi"
+$ php artisan vendor:publish --provider="Postare\BladeMdi\BladeMdiServiceProvider" --tag="blade-mdi"
 ```
 
 ## 🙌 Usage
