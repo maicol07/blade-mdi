@@ -5,7 +5,7 @@ This repository is a fork of the original [renoki-co/blade-mdi](https://github.c
 
 - Updated dependencies
 - Added new icons
-- Added fill=currentColor property to all icons
+- Added fill=currentColor property to all icons (To make them work properly with [Tailwind CSS](https://tailwindcss.com/))
 
 Please note that this repository is not associated with the original repository or its maintainers. If you have any questions or suggestions, you can open an issue in this repository.
 
@@ -36,6 +36,8 @@ Using [blade-ui-kit/blade-icons](https://github.com/blade-ui-kit/blade-icons), a
 
 For a complete list of icons, check https://materialdesignicons.com
 
+or search for an icon here: [Blade UI kit](https://blade-ui-kit.com/blade-icons?set=76#search)
+
 ## Updating Icons
 
 If you wish to contribute and update the latest icons, you can fork the repo, run `download.sh` and submit a PR. What `download.sh` does is to download the `master` branch of https://github.com/Templarian/MaterialDesign and copy the distributables svgs to local svgs.
@@ -43,7 +45,7 @@ If you wish to contribute and update the latest icons, you can fork the repo, ru
 ## 🐛 Testing
 
 ``` bash
-vendor/bin/phpunit
+php vendor/bin/phpunit
 ```
 
 ## 🤝 Contributing
@@ -52,10 +54,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## 🔒  Security
 
-If you discover any security related issues, please email alex@renoki.org instead of using the issue tracker.
+If you discover any security related issues, please email inerba@gmail.com instead of using the issue tracker.
 
 ## 🎉 Credits
 
+- [Francesco Apruzzese](https://github.com/inerba)
 - [Alex Renoki](https://github.com/rennokki)
 - [All Contributors](../../contributors)
 
