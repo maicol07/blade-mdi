@@ -13,7 +13,7 @@ class RenderTest extends TestCase
         $this->assertTrue(
             Str::contains(
                 $render,
-                '<svg id="some-id" style="color: #555;" some-data="1" class="some-class" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-account" width="24" height="24" viewBox="0 0 24 24"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>'
+                '<svg id="some-id" style="color: #555;" some-data="1" class="some-class" fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="mdi-abacus" viewBox="0 0 24 24"><path d="M5 5H7V11H5V5M10 5H8V11H10V5M5 19H7V13H5V19M10 13H8V19H10V17H15V15H10V13M2 21H4V3H2V21M20 3V7H13V5H11V11H13V9H20V15H18V13H16V19H18V17H20V21H22V3H20Z" /></svg>'
             )
         );
     }
