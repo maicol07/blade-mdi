@@ -1,6 +1,6 @@
 <?php
 
-namespace Postare\BladeMdi\Test;
+namespace Maicol07\BladeMdi\Test;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 

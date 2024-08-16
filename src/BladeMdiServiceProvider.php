@@ -1,6 +1,6 @@
 <?php
 
-namespace Postare\BladeMdi;
+namespace Maicol07\BladeMdi;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Support\ServiceProvider;
